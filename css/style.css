@@ -14,23 +14,24 @@ body{
     box-sizing: border-box; /* css 3 */
 }
 
-.container {
-    height: 100vh;
-    background-image: url(../images/lama.webp);
-    background-size: cover;
-    position: relative;   
-}
 
 .header-box{
-    position: absolute;
+   background-image: url(../images/lama.webp);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    height: 100%;
     top: 0;
     left: 0;    
 }
 
 .header{
    padding-bottom: 450px;
+}
+
+.bar{
+    height: 70px;
+    width: 100%;
+    background-color: #bbccd4;
 }
 
 
@@ -58,14 +59,13 @@ body{
     color: #1162e6;
     padding: 20px 40px;
     display: block;
-    font-weight: 900;
-    font-size:px ;   
+    font-size:17px ;   
 }
                                      /*home section*/
 .sec {
    background-color:#DEE6EF;
    width:100%;
-   height: 1400px;
+   height: 1290px;
    padding-top: 50px;  
 }
 
@@ -116,6 +116,19 @@ body{
     margin-bottom: 30px;
     margin-top: 50px;
     padding: 20px;
+    
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #bbccd4;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(102, 102, 233);
+    font-size:50px;
+    padding: 8px;
+
     
 }
 
