@@ -16,13 +16,13 @@ body{
 
 
 .header-box{
-   background-image: url(../images/lama.webp);
+    background-image: url(../images/lama.webp);
     background-size: cover;
     height: 100vh;
     width: 100%;
     top: 0;
     left: 0;    
-}
+    }
 
 .header{
    padding-bottom: 450px;
@@ -65,7 +65,7 @@ body{
 .sec {
    background-color:#DEE6EF;
    width:100%;
-   height: 1290px;
+   height: 1294px;
    padding-top: 50px;  
 }
 
@@ -121,11 +121,11 @@ body{
 .footer{
     width: 100%;
     height: 70px;
-    background-color: #bbccd4;
+    background-image: url(../images/websiteColors.jpg);
     margin-top: 100px;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(102, 102, 233);
+    color: #1162e6;
     font-size:50px;
     padding: 8px;
 
